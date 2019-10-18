@@ -2,29 +2,9 @@
     "name": "Wahyu Bio",
     "short_name": "Wahyu Bio",
     "icons": [{
-      "src": "/favicon.ico",
-        "sizes": "128x128",
-        "type": "image/x-icon"
-      }, {
-        "src": "/favicon.ico",
-        "sizes": "144x144",
-        "type": "image/x-icon"
-      }, {
-        "src": "/favicon.ico",
-        "sizes": "152x152",
-        "type": "image/x-icon"
-      }, {
-        "src": "/favicon.ico",
-        "sizes": "192x192",
-        "type": "image/x-icon"
-      }, {
-        "src": "/favicon.ico",
-        "sizes": "256x256",
-        "type": "image/x-icon"
-      }, {
-        "src": "/favicon.ico",
+        "src": "/images/logo.png",
         "sizes": "512x512",
-        "type": "image/x-icon"
+        "type": "image/png"
       }],
     "start_url": "/index.html",
     "display": "standalone",

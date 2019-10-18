@@ -17,7 +17,9 @@ addEventListener('fetch', function(event) {
             .then(function(res) {
               return caches.open(CACHE)
                 .then(function(cache) {
-                  cache.put(event.request.url, res);    //save the response for future
+                  if(!(event.request.url.indexOf('http') === 0)){
+                    cache.put(event.request.url, res);    //save the response for future
+                  }
                   return res;   // return the fetched data
                 })
             })
